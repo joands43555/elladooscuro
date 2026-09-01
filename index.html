@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acceso Exclusivo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0a0a0a;
+      color: #fff;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      text-align: center;
+      max-width: 420px;
+      width: 100%;
+      background: #111;
+      border-radius: 20px;
+      padding: 50px 30px;
+      border: 1px solid #222;
+      box-shadow: 0 0 40px rgba(255, 0, 80, 0.1);
+    }
+    .crown { font-size: 64px; margin-bottom: 12px; animation: float 3s ease-in-out infinite; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    .brand {
+      color: #ff0050;
+      font-weight: bold;
+      letter-spacing: 5px;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 38px;
+      margin: 12px 0 8px 0;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+    .subtitle {
+      color: #888;
+      margin-bottom: 40px;
+      font-size: 15px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      background: #ff0050;
+      color: white;
+      text-decoration: none;
+      padding: 20px;
+      border-radius: 16px;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .btn:hover {
+      background: #e60047;
+      transform: scale(1.03);
+      box-shadow: 0 8px 30px rgba(255, 0, 80, 0.4);
+    }
+    .btn:active { transform: scale(0.97); }
+    .hint {
+      margin-top: 24px;
+      color: #444;
+      font-size: 11px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="crown">👑</div>
+    <p class="brand">El Lado Oscuro</p>
+    <h1>CANAL EXCLUSIVO</h1>
+    <p class="subtitle">Contenido que no encontrarás en otro lugar</p>
+    <a href="https://t.me/ElLadoOscuro01" class="btn">✈️ Entrar al Canal</a>
+    <p class="hint">Enlace directo a Telegram</p>
+  </div>
+</body>
+</html>
