@@ -5,20 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redirigiendo...</title>
   <script>
-    // Detectar si estamos en el navegador interno de TikTok
-    var ua = navigator.userAgent.toLowerCase();
-    var isTikTok = ua.includes('tiktok') || ua.includes('bytedance') || ua.includes('musical');
-
-    if (isTikTok) {
-      // En TikTok: intentamos navegar a t.me
-      // TikTok bloquea t.me en su navegador interno y muestra
-      // la pantalla nativa "Abre este enlace en el navegador"
-      window.location.replace('https://t.me/ElLadoOscuro01');
-    } else {
-      // En navegador externo (Chrome, Safari): redirigir normalmente a Telegram
-      window.location.replace('https://t.me/ElLadoOscuro01');
-    }
+    window.location.replace('https://t.me/ElLadoOscuro01');
   </script>
+<base target="_blank">
 </head>
 <body style="background:#fff; color:#333; font-family:sans-serif; text-align:center; padding:60px 20px;">
   <p style="font-size:16px; color:#666;">Redirigiendo a Telegram...</p>
